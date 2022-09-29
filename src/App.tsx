@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import QuestionCard from "./components/QuestionCard";
 
 const App = () => {
@@ -15,7 +15,7 @@ const App = () => {
       </button>
       <p className="score">Score:</p>
       <p>Loading Questions...</p>
-      <QuestionCard />
+      {/* <QuestionCard /> */}
       {/* <button className="next" onClick={nextQuestion}> */}
       Next Question
       {/* </button> */}
